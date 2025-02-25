@@ -35,3 +35,23 @@ Status Codes: 2xx - success
 5xx - server errors
 
 Header and Body
+
+
+lesson4(25.02)
+
+HTTP
+Cliet and server response
+-status
+-headers
+-body
+
+http://bbububuibibib.url/?action=delete
+request
+- method GET,POST,PATCH,DELETE,HEAD,OPTION == REST
+-headers
+- body
+
+url parts: 
+http/https - protocol
+username, password
+port number
