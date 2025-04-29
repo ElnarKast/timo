@@ -55,3 +55,32 @@ url parts:
 http/https - protocol
 username, password
 port number
+
+lesson5(29.04)
+- web security is strong by default
+- owasp - site where is malware top
+- What can hack web:
+1) SQL injection
+     SELECT * FROM products WHERE name = '%${req.query.search}%'
+     SELECT * FROM products WHERE name = '%" + {req.query.search}+"%'"
+     password='' WHERE role='admin' --%'"
+     search= "car' ; UPDATE users SET password='' WHERE 
+     role=''admin'' --"
+
+     
+
+2) XSS(cross site scripting)
+     unsecured inputs in formsd, public forms like comments, reviewes, username
+     <script> clean html in asp.net
+
+3)Brute force
+     both passwords and directory traversing
+     Rate limitig plugin/middleware
+     IP based rate limiting, 10000 login requests per 5 minutes
+
+ Misconfiguration
+CORS
+Cookie/token
+
+
+
